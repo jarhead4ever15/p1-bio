@@ -1,0 +1,107 @@
+
+/*Use this to show the boxes in the page layout
+* {
+   border: 1px solid red !important;
+}
+*/ 
+body {
+	background: url("../img/grunge.jpg");
+}
+
+#main {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.me {
+  border: 5px solid black;
+  width: 350px;
+  height: 450px;
+ }
+
+.name {
+  background: url("../img/flag.jpg");
+  width: 798px;
+  height: 192px;
+  font-family: helvetica;
+  color: white;
+  margin: 0 0 15px 0;
+  line-height: 170px;
+  font-size: 6em;
+  /*Thinking about trying a fixed position here some how. 
+  width: 800px;
+  position: fixed ;
+  z-index: 20;  */
+}
+
+.major {
+  background:white;
+  border: 2PPPpx solid black;
+  border-radius: 20px;
+  display: inline-block;
+  width: 420px;
+  height: 130px;
+  position: absolute;
+  margin: 0 0 0 10px;
+  text-align: center;
+  line-height: 20px;
+}
+
+ul {
+	padding: 0;
+  font-size: 15px;
+  list-style: none;
+}
+
+h4 {
+	margin: 0;
+}
+
+.info {
+	border: 0px solid black;
+ 	background: white;
+  	display: inline-block;
+   	width: 416px;
+  	height: 226px;
+  	margin: 0 0 0 10px;
+  	padding: 0 5px 5px 5px;
+}
+
+.info>p,
+.professional>p {
+  text-indent: 20px;
+}
+
+.professional {
+	border: 5px solid black;
+	background: white;
+	width: 330px;
+  	height: 231px;
+  	padding: 0 11px 12px 9px;
+  	float: left;
+  	
+}
+
+.list {
+	width: 420px;
+	float: left;
+	margin: 10px 0 0 14px;
+} 
+
+a:focus {
+	background: green;
+}
+
+a:hover {
+	color: green;
+	font-style: italic;
+}
+
+a:visited {
+	color: black;
+}
+
+.name:hover {
+	background: url("../img/marinecorps.jpg");
+
+}
